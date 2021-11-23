@@ -1,0 +1,26 @@
+digraph G {
+Ilse -> Carolina [label= "1"];
+Gilberto -> Ernesto [label= "2"];
+Gilberto -> Carolina [label= "2"];
+Carlos -> Ernesto [label= "1"];
+Carlos -> Isabel [label= "2"];
+Karla -> Carolina [label= "1"];
+Karla -> Angel [label= "3"];
+Carolina -> David [label= "3"];
+Carolina -> Ilse [label= "1"];
+Carolina -> Karla [label= "1"];
+Angel -> Hector [label= "1"];
+Hector -> Angel [label= "1"];
+Hector -> German [label= "1"];
+Hector -> Isabel [label= "1"];
+Hector -> Ernesto [label= "3"];
+Hector -> Dulce [label= "1"];
+German -> Hector [label= "1"];
+Ernesto -> Carlos [label= "1"];
+Ernesto -> Hector [label= "2"];
+Ernesto -> David [label= "1"];
+Andrea -> Karla [label= "1"];
+David -> Ernesto [label= "1"];
+David -> Carolina [label= "2"];
+Isabel -> Hector [label= "1"];
+}
